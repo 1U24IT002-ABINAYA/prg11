@@ -2,7 +2,7 @@
 
 # ==========================================
 # Mount Filesystem Using UUID
-# Student Name:abinaya
+# Student Name:ABINAYA S
 # Roll Number:1U24IT002
 # ==========================================
 
@@ -18,6 +18,7 @@ sudo mkdir -p /mnt/mydisk
 
 
 # Mount filesystem using UUID
+sudo blkid
 # Replace YOUR_UUID with actual UUID
 sudo mount UUID=YOUR_UUID /mnt/mydisk
 
