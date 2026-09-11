@@ -18,7 +18,7 @@ sudo mkdir -p /mnt/mydisk
 
 
 # Mount filesystem using UUID
-sudo blkid
+/dev/sdb1: UUID="1234-ABCD" TYPE="ext4"
 # Replace YOUR_UUID with actual UUID
 sudo mount UUID=YOUR_UUID /mnt/mydisk
 
